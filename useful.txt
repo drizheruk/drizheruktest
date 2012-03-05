@@ -1,0 +1,2 @@
+#replace 1 text to 2nd in all files in folder recursive
+find ./ -type f -exec sed -i 's/www.joyofmom.com/joyofmom.ehclients.com/g' {} \;
